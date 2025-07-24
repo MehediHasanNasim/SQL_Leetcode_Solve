@@ -1,4 +1,5 @@
-# Write your MySQL query statement below
+-- Problem: You are given Visits and Transactions tables. The task is to identify customers who visited the mall without making any transactions, and count how many times each of them did so.
+
 
 SELECT V.customer_id, COUNT(*) AS count_no_trans
 FROM Visits AS V
